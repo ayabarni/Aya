@@ -1,0 +1,249 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 246, 182, 0.31);
+    /* font-family: 'Times New Roman' Times serif; */
+    font-family:'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("./img/background33.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header start*/
+
+header {
+    height: 70px;
+    text-shadow: 3px 0px 5px rgba(0, 0, 0, 1);
+}
+
+header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(215, 240, 243, 0.29);
+}
+
+header nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* text-align: right; */
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+header nav ul li a {
+    /* padding: 15px 15px; */
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size:25px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+footer:hover {
+    letter-spacing:3px;
+    text-shadow: 3px 0px 5px rgba(0, 0, 0, 1);
+}
+/* Home pagina */
+.row {
+    height: 88%;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+
+h1 {
+    color: #e3e3e3;
+    font-size: 100px;
+    text-shadow: 3px 0px 5px rgba(0, 0, 0, 1);
+}
+
+
+
+.col {
+    width: 75%;
+    align-items: center;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+p {
+    font-size: 1.75em;
+    line-height: 35px;
+    flex-basis: 50%;
+}
+
+article {
+    width: 35%;
+    float: left;
+    padding-left:5%;
+}
+
+.Ontdek_meer_a:hover {
+    font-weight:bold;
+}
+main {
+    width: 100%;
+}
+
+main h1 {
+    font-size: 90px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+main div{
+    width: 300px;
+}
+main div p {
+    width:  100%;  
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    color: #fff;
+    margin: 0px;
+}    
+
+
+/*overmij pagina start*/
+
+
+.over_mij_img {
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+    height: 285px;
+    width: 220px;
+    border-radius: 50%;
+    /* border: 3px solid #bef4f7; */
+}
+h2 {
+    color: #e3e3e3;
+    font-size: 35px;
+    text-shadow: 3px 0px 5px rgba(0, 0, 0, 1);
+}
+
+/* EINDE VAN OVER MIJ PAGINA */
+
+
+/* Nu START DE GALLERY */
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 0 20px
+}
+.container .heading h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+
+}
+.container .heading h1 span {
+    font-size:1.5em;
+}
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .dream img {
+    width: 50%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+
+body, .parent-container, .child-container {
+    display: flex;
+}
+
+.parent-container {
+    width: 100%;
+    justify-content: center;
+    grid-gap: 25px 25px;
+}
+
+.child-container {
+    width: 25%;
+    height: auto;
+    grid-gap: 25px 25px;
+    flex-direction: column;
+}
+
+.child-container img {
+        transition: all 1s ease-in-out 0s;
+    }
+
+.index-parent-container, .index-child-container {
+    width: 60%;
+    float: right;
+    display: flex;
+}
+
+.index-parent-container {
+    justify-content: center;
+    grid-gap: 25px 25px;
+}
+
+.index-child-container {
+    width: 25%;
+    height: auto;
+    grid-gap: 25px 25px;
+    flex-direction: column;
+}
+.gallery_img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+    .index-child-container img {
+        transition: all 1s ease-in-out 0s;
+    }
+/* @media only screen and (max-width; 769px) { */
+    
