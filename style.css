@@ -101,6 +101,8 @@ footer p:hover {
 
 /* Home pagina */
 
+/* Bron: voor last of type: https://www.w3schools.com/cssref/sel_last-of-type.php */
+
 
 main section:first-of-type {
     display: flex;
@@ -255,6 +257,16 @@ main section div p {
 
 /* tips pagina */
 
+/* 
+-Bron: voor nth of type: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
+-Bron: Inspiratie voor klaartontwerp: (Ik heb geprobeerd het concept van het omdraaien van een kaart om te zetten in 
+een keyframe-animatie met behulp van deze bron.) 
+https://codepen.io/acronamy/pen/GqXwXJ
+https://learn.shayhowe.com/advanced-html-css/transitions-animations/
+
+
+*/
+
 .tips ul {
     width: 100%;
     display: flex;
@@ -364,7 +376,8 @@ main section div p {
     animation-delay: 1s;
 }
 
-.tips ul li:hover h3, .tips ul li:hover img, .tips ul li:hover iframe
+.tips ul li:hover h3, .tips ul li:hover img
+
  {
     animation-name: showing;
     animation-duration: 0.5s;
